@@ -5,5 +5,6 @@ def main(a):
         a: integer
     Returns:
         a: a increased by 1 if positive, else unchanged.
-    """
-    return
+    """ 
+    return a>0 and a+1
+print(main(5))
