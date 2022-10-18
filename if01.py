@@ -1,3 +1,6 @@
+from re import A
+
+
 def main(a):
     """
     If the number is positive, increase it to 1, else leave unchanged.
@@ -6,5 +9,7 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else unchanged.
     """ 
-    return a>0 and a+1
-print(main(5))
+    if a>0:
+        return a+1
+    return 
+print(main(1))
