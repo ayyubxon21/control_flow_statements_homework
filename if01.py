@@ -9,7 +9,7 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else unchanged.
     """ 
-    if a>0:
+    if 1>0:
         return a+1
-    return 
+    return True
 print(main(1))
