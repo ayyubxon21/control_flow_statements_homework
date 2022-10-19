@@ -16,5 +16,5 @@ def main(a,b,c):
         return 2
     if a<0 and b<0 and c>0:
         return 2
-        
+         
 print(main(2,-4,-1))
