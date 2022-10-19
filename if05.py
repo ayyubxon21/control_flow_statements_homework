@@ -19,7 +19,7 @@ def main(a,b,c):
     if a>0 and b>0 and c<0:
         return 1
     if a>0 and b>0 and c<0:
-        return 0
+        return 0 
 
 
 print(main(2,4,-1))
