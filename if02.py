@@ -12,5 +12,5 @@ def main(a):
         return a-2
     if a==0:
         return a
-print(main(0))
+print(main(4))
     
