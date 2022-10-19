@@ -11,5 +11,4 @@ def main(a):
     """ 
     if a>=0:
         return a+1
-    return True
-print(main(1))
+print(main(0))
